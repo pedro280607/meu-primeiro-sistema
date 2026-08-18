@@ -7,16 +7,11 @@ public class Sistema {
          System.out.println("Iniciando o sistema...");
 
         Carro meuCarro = new Carro();
-        meuCarro.modelo = "Fusca";
-        meuCarro.cor = "Azul";
-
+        meuCarro.setModelo("Fusca");
+        meuCarro.setCor("Azul");
+        meuCarro.setVelocidade(-500); // Tentando hackear novamente
         meuCarro.buzinar();
 
-        Carro carro2 = new Carro();
-    carro2.modelo = "Civic";
-    carro2.cor = "Preto";
-
-    carro2.buzinar();
 }
     }
 
